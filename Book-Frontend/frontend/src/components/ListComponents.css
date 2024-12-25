@@ -1,0 +1,90 @@
+.book-list {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .book-list__sort-dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .book-list__heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .book-list__items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-list__item {
+    margin-bottom: 15px;
+  }
+  
+  .book-list__item-title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .book-list__item-author,
+  .book-list__item-genre,
+  .book-list__item-rating {
+    font-style: italic;
+  }
+  
+  .book-list__highlight {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .book-list__message {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  @media (max-width: 768px) {
+    .book-list__heading {
+      font-size: 20px;
+    }
+  
+    .book-list__item-title {
+      font-size: 16px;
+    }
+  
+    .book-list__item-author,
+    .book-list__item-genre,
+    .book-list__item-rating {
+      font-size: 14px;
+    }
+      
+    .book-list__sort-dropdown {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .book-list {
+      padding: 10px;
+    }
+  
+    .book-list__heading {
+      font-size: 18px;
+    }
+  
+    .book-list__item-title {
+      font-size: 14px;
+    }
+  
+    .book-list__item-author,
+    .book-list__item-genre,
+    .book-list__item-rating {
+      font-size: 12px;
+    }
+  
+    .book-list__message {
+      font-size: 16px;
+    }
+  }
