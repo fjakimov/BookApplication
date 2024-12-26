@@ -1,12 +1,10 @@
 # BookApp
 Before running this project, you need to have the following installed on your system:
 
-- Use any of your favourite IDE prefferably [Intelij](https://www.jetbrains.com/idea/download)
-- [Git](https://git-scm.com/downloads)
+- [Git](https://git-scm.com/downloads) (For the BookAPI)
+- [Docker](https://docs.docker.com/get-docker/) (For the BookAPI)
+- [Docker-Compose](https://docs.docker.com/compose/install/)
 - [Node.js](https://nodejs.org/en/) (For the frontend)
-- [Java 19 or higher](https://openjdk.java.net/) (For the backend)
-- [Maven](https://maven.apache.org/) (For the backend)
-
 ## How to run it
 
 ### Backend 
@@ -15,14 +13,16 @@ Before running this project, you need to have the following installed on your sy
 
    ```bash
    git clone https://github.com/fjakimov/BookApp.git
-   cd BookApp/BookAPI
-   mvn install
-Finally enter
-   ```bash
-   mvn spring-boot:run
+   cd BookApp
    ```
+Type the following command to start the backend without MVN installation 
+   ```bash
+   docker-compose up -d --build
+   ```
+This will download all the dependecies and requirements
+
 Now you should be able to view the application in the browser from the following address 
-http://localhost:8080
+http://localhost:8080/api/book
 ### Frontend 
 
    2.Next use this command in the terminal
