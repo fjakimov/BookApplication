@@ -1,0 +1,23 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./Book-Frontend/frontend  # Path to your frontend directory
+    ports:
+      - "80:80"  # Expose frontend on port 80
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./BookAPI  # Path to your backend directory
+    ports:
+      - "8080:8080"  # Expose backend on port 8080
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
