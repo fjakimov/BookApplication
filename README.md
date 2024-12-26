@@ -1,7 +1,7 @@
 # BookApp
 Before running this project, you need to have the following installed on your system:
 
-- [Git](https://git-scm.com/downloads) (For the BookAPI)
+- [Git](https://git-scm.com/downloads) 
 - [Docker](https://docs.docker.com/get-docker/) (For the BookAPI)
 - [Docker-Compose](https://docs.docker.com/compose/install/) (For the BookAPI)
 - [Node.js](https://nodejs.org/en/) (For the frontend)
