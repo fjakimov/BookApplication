@@ -3,7 +3,7 @@ Before running this project, you need to have the following installed on your sy
 
 - [Git](https://git-scm.com/downloads) (For the BookAPI)
 - [Docker](https://docs.docker.com/get-docker/) (For the BookAPI)
-- [Docker-Compose](https://docs.docker.com/compose/install/)
+- [Docker-Compose](https://docs.docker.com/compose/install/) (For the BookAPI)
 - [Node.js](https://nodejs.org/en/) (For the frontend)
 ## How to run it
 
